@@ -1,0 +1,59 @@
+
+/*bagian header*/
+.wrap .header{
+background: lavender;
+/*height: 50px;*/
+padding: 2px 10px;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+background: red;
+overflow: hidden;
+height: 70px;
+}
+.wrap .menu ul{ padding: 0; margin: 0;
+background: gold;
+
+}
+
+.wrap .menu ul li{
+float: left;
+list-style-type: none;
+padding: 10px;
+}
+/*akhir menu*/
+
+.clear{
+clear: both;
+background: red;
+}
+
+.badan{
+height: 950px;
+}
+
+.wrap .badan .content{ background: white; float: left; height: 100%; width: 100%;
+}
+
+.form{
+padding: 10px;
+background: black;
+font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans- serif;
+font-size: 15px;
+font-weight: 400;
+}
+.title{
+font-size:26px; font-weight:bold; color:blue; padding:5px 0; margin-bottom:10px;
+border-bottom:1px solid #ccc;
+}
+.fitem{
+margin-bottom:5px;
+
+}
+.fitem label{
+display:inline-block;
+width:120px;
+}
